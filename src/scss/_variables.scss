@@ -1,0 +1,28 @@
+$primary-primary-400: #3e99ff;
+$primary-primary-500: #005aff;
+$primary-primary-600: #0051e4;
+$primary-primary-800: #002889;
+
+$typography-typo-01: #1e1e1e;
+$typography-typo-01-opacity: #1e1e1e80;
+$typography-typo-02: #4c4c4c;
+$typography-typo-02-opacity: #4c4c4cb3;
+$typography-typo-03: #002889;
+$typography-typo-99: #767676; /* 99 because designer is using transparency on it */
+
+$transition: 0.3s;
+
+$red: solid 1px red;
+
+// Getting the bootstrap breakpoints
+// FIXME: see how we can use it directly from the bootstrap
+$breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	//MOBILE
+	lg: 992px,
+	//ACIMA SERIA DESKTOP
+	xl: 1200px,
+	xxl: 1400px,
+);

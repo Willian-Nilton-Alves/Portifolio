@@ -1,1 +1,1 @@
-##XPro code Boilerplate Theme
+## XPro code Boilerplate Theme
