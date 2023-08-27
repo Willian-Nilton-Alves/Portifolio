@@ -57,14 +57,6 @@
 
         <section class="d-flex align-items-center container-right">
 
-            <?php
-            $args = array(
-                "container_class" => "menu-principal-container",
-                "menu_class" => "d-flex flexbox-gap-20",
-                "menu" => "Main Menu",
-            );
-            wp_nav_menu($args);
-            ?>
 
             <a href="#" class="button button-primary button-header">Make an Enquiry</a>
         </section>
