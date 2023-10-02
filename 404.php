@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package Ballistic_Shield
+ * @package XPro Code Boilerplate
  */
 
 get_header();

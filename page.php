@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package Ballistic_Shield
+ * @package XPro Code Boilerplate
  */
 
 get_header();

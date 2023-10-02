@@ -1,7 +1,7 @@
 {
 	"name": "xprocode-boilerplate-theme",
 	"version": "1.0.0",
-	"description": "\"Description\": \"Ballistic Shield Wordpress Theme\"",
+	"description": "\"Description\": \"XPro Code WP Theme\"",
 	"main": "index.js",
 	"scripts": {
 		"start": "wp-scripts start src/js/styles.js",
@@ -20,7 +20,7 @@
 	  },
 	"repository": {
 		"type": "git",
-		"url": "git+https://ssbrunocode@bitbucket.org/flysites/ballistic-shield.git"
+		"url": "git+https://ssbrunocode@bitbucket.org/flysites/xpro-code-boilerplate.git"
 	},
 	"keywords": [
 		"Wordpress",
@@ -35,9 +35,9 @@
 	"author": "Bruno S. S. Fly Martech, John H. Fly Martech",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://bitbucket.org/flysites/ballistic-shield/issues"
+		"url": "https://bitbucket.org/flysites/xpro-code-boilerplate/issues"
 	},
-	"homepage": "https://bitbucket.org/flysites/ballistic-shield#readme",
+	"homepage": "https://bitbucket.org/flysites/xpro-code-boilerplate#readme",
 	"dependencies": {
 		"@wordpress/scripts": "^26.10.0",
 		"bootstrap": "^5.3.1",

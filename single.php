@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package Ballistic_Shield
+ * @package XPro Code Boilerplate
  */
 
 get_header();

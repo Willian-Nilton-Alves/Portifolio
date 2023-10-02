@@ -1,11 +1,11 @@
 {
-    "name": "fly/ballistic-shield",
-    "description": "Ballistic Shield Wordpress Theme",
+    "name": "xprocode/wp-boilerplate-theme",
+    "description": "XPro Code WP Theme",
     "type": "project",
     "authors": [
         {
             "name": "Bruno Santana Stefani",
-            "email": "bruno.stefani@talk2fly.com"
+            "email": "bruno@xprocode.com"
         }
     ],
     "minimum-stability": "dev",

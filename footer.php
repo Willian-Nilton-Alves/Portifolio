@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Ballistic_Shield
+ * @package XPro Code Boilerplate
  */
 
 ?>
@@ -17,7 +17,7 @@
 
     <section class="d-flex flex-column flex-sm-row justify-content-between align-items-start content-container">
         <a href="#" class="logo-container justify-content-between align-items-start">
-            <img src="/wp-content/uploads/2023/08/logo-ballistic-shield.png" />
+            <img src="/wp-content/uploads/2023/08/logo-xpro-code-boilerplate.png" />
         </a>
 
         <?php
@@ -31,15 +31,12 @@
 
         <section class="contact">
             <address>
-                <b>Sydney</b> <br />
+                <b>Rua 1</b> <br />
                 100 Random Street <br />
-                Sydney, NSW 2010 AU
+                US, NSW 2010 
             </address>
             
-            <b>Contact Us</b> <br />
-            <b>t:</b> +61 3333 333-333 <br />
-            <b>e:</b> info@ballisticshield.com <br />
-
+            
         </section>
 
 
@@ -58,7 +55,7 @@
 
         <section class="left  ">
             
-            © 2023 Ballistic Shield. All rights reserved.
+            © 2023 XPro Code. All rights reserved.
         </section>
 
         <section class="middle ">

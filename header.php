@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Ballistic_Shield
+ * @package XPro Code Boilerplate
  */
 
 ?>
@@ -52,7 +52,7 @@
         <a
             href="/"
             class="logo-container justify-content-between align-items-start"
-            ><img src="/wp-content/uploads/2023/08/logo-ballistic-shield.png"
+            ><img src="/wp-content/uploads/2023/08/logo-xpro-code-boilerplate.png"
         /></a>
 
         <section class="d-flex align-items-center container-right">
@@ -74,7 +74,7 @@
                 <section  class="d-flex justify-content-between align-items-center content-container ">
 
                     <a href="/" class="logo-container justify-content-between align-items-start">
-                        <img src="/wp-content/uploads/2023/08/logo-ballistic-shield.png"/>
+                        <img src="/wp-content/uploads/2023/08/logo-xpro-code-boilerplate.png"/>
                     </a>
 
                     <a class="menu-icon" id="menu-icon-close" href="#">

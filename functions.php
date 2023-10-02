@@ -1,8 +1,8 @@
 <?php
 /**
- * Ballistic Shield functions and definitions
+ * XPro Code functions and definitions
  *
- * @package Ballistic_Shield
+ * @package XPro Code Boilerplate
  */
 
 // If this file is called firectly, abort!!!
