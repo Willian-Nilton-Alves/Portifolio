@@ -13,7 +13,7 @@ class Enqueue
 
     public function register()
     {
-        
+
         add_action('admin_enqueue_scripts', array($this, 'adminEnqueue'));
         add_action('wp_enqueue_scripts', array($this, 'publicEnqueue'));
 
@@ -38,9 +38,13 @@ class Enqueue
     public function publicEnqueue()
     {
         //compiled file with all SCSS files together
-        wp_register_style( 'boielrplate-css',  get_stylesheet_directory_uri() . '/build/styles.css');
-        wp_enqueue_style('boielrplate-css');        
+        wp_register_style('boielrplate-css', get_stylesheet_directory_uri() . '/build/styles.css');
+        wp_register_script('script-js', get_stylesheet_directory_uri() . '/build/script.js', ['jquery'], false);
+        wp_enqueue_script('google-fonts-js', 'https://fonts.googleapis.com');
+        wp_enqueue_style('boielrplate-css');
+        wp_enqueue_script('scrolled', get_template_directory_uri() . '/build/script.js', false);
 
     }
+
 
 }

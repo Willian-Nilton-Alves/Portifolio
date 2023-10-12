@@ -1,0 +1,64 @@
+.skills {
+  width: 100%;
+  background-color: #000000;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 100px;
+
+
+  .max-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem; /* Ajuste do espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    .skills-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      display: inline;
+      border-bottom: 4px solid #ff007f;
+      text-align: center; /* Centralizando o título */
+    }
+
+    .skills-grid {
+      margin-top: 2rem;
+      width: 100%; /* Modificando a largura da grid para ocupar 100% */
+      display: grid;
+      gap: 1rem;
+
+      @media (min-width: 640px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .skill-item {
+        .shadow-box {
+          box-shadow: 0 0 10px rgba(7, 88, 7, 0.4); /* Sombra em volta de todo o elemento */
+          transition: transform 0.5s ease;
+          width: 100%;
+          border-radius: 20px;
+          padding-top: 20px;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        img {
+          width: 90px;
+          height: 90px; /* Modificando a largura do ícone */
+          margin: 0 auto;
+          display: block; /* Certificando-se de que a imagem está centralizada */
+        }
+
+        p {
+          font-size: 1.2rem;
+          color: #ffffff;
+          margin: 1rem 0;
+          text-align: center; /* Centralizando o texto */
+        }
+      }
+    }
+  }
+}

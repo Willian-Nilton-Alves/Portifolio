@@ -1,6 +1,15 @@
-/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/styles.scss ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/styles.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap);
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/styles.scss (1) ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap);
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/styles.scss (2) ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 /* 99 because designer is using transparency on it */
 .banner {
   background-size: cover;
@@ -248,6 +257,517 @@
 @media (max-width: 576px) {
   .banner.layout-02 .features .article h3 {
     text-align: center;
+  }
+}
+
+.icons {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.icons li a {
+  font-size: 3em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.icons li a:hover {
+  transform: translateY(-10px);
+}
+
+.home {
+  width: 100%;
+  background-color: #000000;
+}
+.home .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 13rem 1rem; /* Ajuste do espaçamento interno */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.home .container .intro-text {
+  font-size: 1.5rem; /* Ajuste do tamanho do texto */
+  color: #ff007b;
+  margin-bottom: 3px; /* Ajuste do espaçamento inferior */
+}
+.home .container .main-title {
+  font-size: 5rem; /* Ajuste do tamanho do texto */
+  font-weight: bold;
+  color: #ccd6f6;
+  margin: 0;
+}
+@media (min-width: 640px) {
+  .home .container .main-title {
+    font-size: 4rem; /* Ajuste do tamanho do texto */
+  }
+}
+.home .container .subtitle {
+  font-size: 3rem; /* Ajuste do tamanho do texto */
+  font-weight: bold;
+  color: #8892b0;
+  margin: 0;
+  white-space: nowrap; /* Impede que o texto quebre a linha */
+}
+@media (min-width: 640px) {
+  .home .container .subtitle {
+    font-size: 5rem;
+  }
+}
+.home .container .description {
+  color: #8892b0;
+  padding: 1rem 0;
+  max-width: 700px;
+}
+.home .img-header {
+  border-radius: 100px;
+  height: 55%;
+  width: 55%;
+}
+.home .div-img {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  width: 100%;
+  height: 80vh;
+  background-color: #050505;
+  color: #ffffff;
+}
+.about .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.about .content .info-container {
+  max-width: 1000px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.about .content .info-container .info-left {
+  text-align: right;
+  padding-bottom: 8px;
+  padding-left: 4px;
+}
+.about .content .info-container .info-left .title {
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline;
+  border-bottom: 4px solid #ff007b;
+}
+.about .content .description-container {
+  max-width: 1000px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 0 4px;
+}
+.about .content .description-container .description-left {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.about .content .description-container .description-left p {
+  margin: 0;
+}
+.about .content .description-container .description-right p {
+  margin: 0;
+}
+
+.skills {
+  width: 100%;
+  background-color: #000000;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.skills .max-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem; /* Ajuste do espaçamento interno */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.skills .max-container .skills-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline;
+  border-bottom: 4px solid #ff007f;
+  text-align: center; /* Centralizando o título */
+}
+.skills .max-container .skills-grid {
+  margin-top: 2rem;
+  width: 100%; /* Modificando a largura da grid para ocupar 100% */
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .skills .max-container .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.skills .max-container .skills-grid .skill-item .shadow-box {
+  box-shadow: 0 0 10px rgba(7, 88, 7, 0.4); /* Sombra em volta de todo o elemento */
+  transition: transform 0.5s ease;
+  width: 100%;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+.skills .max-container .skills-grid .skill-item .shadow-box:hover {
+  transform: scale(1.1);
+}
+.skills .max-container .skills-grid .skill-item img {
+  width: 90px;
+  height: 90px; /* Modificando a largura do ícone */
+  margin: 0 auto;
+  display: block; /* Certificando-se de que a imagem está centralizada */
+}
+.skills .max-container .skills-grid .skill-item p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 1rem 0;
+  text-align: center; /* Centralizando o texto */
+}
+
+.work {
+  margin: 0 auto;
+  align-items: center;
+  color: #ffffff;
+  background-color: #050505;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 200px;
+}
+.work .work-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline;
+  border-bottom: 4px solid #ff007f;
+}
+.work .card {
+  margin-top: 20px;
+  background-color: #050505;
+  color: #ffffff;
+  --bs-card-spacer-y: 0rem;
+  --bs-card-spacer-x: 0rem;
+}
+.work .card:hover {
+  transform: scale(1.1);
+}
+.work .card .card-img {
+  position: relative;
+  max-width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 20px;
+}
+.work .card .card-img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 10, 0, 0.918);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.work .card .card-img .overlay .card-title {
+  color: #ffffff;
+}
+.work .card:hover .overlay {
+  opacity: 1;
+}
+.work .card .btn {
+  color: #ffffff;
+  background-color: rgba(32, 32, 32, 0.3490196078);
+  padding: 1rem;
+  margin: 1rem;
+}
+.work .card .btn:hover {
+  transform: scale(1.1);
+  background-color: #3a3939;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #000000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: #505050;
+  margin-left: 20px;
+}
+
+footer .social_icon,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .social_icon li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social_icon li a {
+  font-size: 2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icon li a:hover {
+  transform: translateY(-15px);
+  color: blue;
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+/*wave and animation*/
+footer .wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://i.ibb.co/rZt4Nhg/wave.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
+}
+
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 0;
+  animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+a {
+  color: #ffffff;
+}
+
+/* header */
+.header {
+  padding: 15px;
+  background-color: rgba(22, 22, 22, 0); /* Inicialmente transparente */
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  transition: background-color 0.3s ease;
+}
+
+.header.scrolled {
+  background-color: rgba(22, 22, 22, 0.8); /* Cor com transparência quando rolado */
+}
+
+/* Restante do seu código permanece o mesmo */
+/* Restante do seu código permanece o mesmo */
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: rgba(22, 22, 22, 0);
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: rgba(253, 253, 253, 0.1098039216);
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #ffffff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #ffffff;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
   }
 }
 
